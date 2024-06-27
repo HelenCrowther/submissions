@@ -1,0 +1,72 @@
+
+
+/*sets the background colour*/
+ .background {
+background-color: palegreen;
+}
+
+h1
+/*set a pseudo-element*/
+
+h1 {
+    color:blueviolet; font-weight:bold; font-family: Verdana,sans-serif;
+}
+
+/*cheeky little button*/
+.button {
+  background-color: #1204aa;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.para {
+color:rgb(230, 77, 77); font-weight:bolder; font-family: Verdana, sans-serif;
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+ /* unvisited link */
+ a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  } 
+
+  /*making a flex container with three items*/
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; align-items: center; border: 2px dotted darkred; border-radius: 2px;
+  }
+
+  .box {
+    font-family: Verdana,sans-serif; font-weight: 200; color:darkred; padding:20px 30px;
+
+  }
+
+  /*reverting styling of font*/
+  p::first-letter {
+    color:revert; font-size: revert;
+  }
+  
+
